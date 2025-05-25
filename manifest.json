@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "WebBoost Keys",
+  "version": "1.0.1",
+  "description": "为网页元素自定义快捷键，避免繁琐地鼠标移动，提高操作效率",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus",
+    "commands"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "options_page": "options.html",
+  "commands": {
+    "capture-element-for-shortcut": {
+      "suggested_key": {
+        "default": "Alt+Shift+C",
+        "mac": "Alt+Shift+C"
+      },
+      "description": "捕获鼠标下的元素并为其设置快捷键"
+    }
+  }
+}

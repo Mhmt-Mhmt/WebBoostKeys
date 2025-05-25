@@ -1,0 +1,89 @@
+{
+  "shortcuts": {
+    "chat.deepseek.com": [
+      {
+        "action": "click",
+        "id": "1747967919984",
+        "keys": [
+          "`"
+        ],
+        "name": "DeepSeek侧边栏",
+        "selector": "rect"
+      },
+      {
+        "action": "click",
+        "id": "1747967977775",
+        "keys": [
+          "1"
+        ],
+        "name": "关闭侧边栏",
+        "selector": "rect"
+      }
+    ],
+    "www.bilibili.com": [
+      {
+        "action": "click",
+        "id": "1747917327807",
+        "keys": [
+          "z"
+        ],
+        "name": "0.5x",
+        "selector": "li[data-value=\"\\30 \\.5\"]"
+      },
+      {
+        "action": "click",
+        "id": "1747917351776",
+        "keys": [
+          "x"
+        ],
+        "name": "1.0x",
+        "selector": "li[data-value=\"\\31 \"]"
+      },
+      {
+        "action": "click",
+        "id": "1747917372816",
+        "keys": [
+          "c"
+        ],
+        "name": "1.5x",
+        "selector": "li[data-value=\"\\31 \\.5\"]"
+      },
+      {
+        "action": "click",
+        "id": "1747917390936",
+        "keys": [
+          "v"
+        ],
+        "name": "2.0x",
+        "selector": "li[data-value=\"\\32 \"]"
+      }
+    ],
+    "www.youtube.com": [
+      {
+        "action": "click",
+        "id": "1747917447433",
+        "keys": [
+          "v"
+        ],
+        "name": "2",
+        "selector": "div.ytp-menuitem-label"
+      },
+      {
+        "action": "click",
+        "id": "1747918537184",
+        "keys": [
+          "c"
+        ],
+        "name": "1.5",
+        "selector": "div.ytp-menuitem-label"
+      }
+    ]
+  },
+  "settings": {
+    "showTooltip": true,
+    "showHighlight": true,
+    "preventDefault": true
+  },
+  "version": "1.0.0",
+  "exportDate": "2025-05-25T13:53:52.978Z"
+}
